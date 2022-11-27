@@ -1,0 +1,191 @@
+<html lang="en">
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Akun Orang Dalam</title> 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"> 
+  <link rel="stylesheet" href="bootstrap.min.css"> 
+  <style>
+		.judul > img{
+			width: 80px;
+		}
+		@media (max-width: 792px){
+			.judul{
+				font-size: 16px;
+			}
+			.judul > img{
+				width: 30px;
+			}
+		}
+	</style>
+ </head> 
+ <body> 
+  <header class="bg-primary"> 
+   <div class="container"> 
+    <a class="btn text-white" href="#"><h4 style="font-weight: 700">AKUN ORANG DALAM</h4></a> 
+   </div> 
+  </header> 
+  <main> 
+   <div class="container shadow p-3 mt-4 mb-5 bg-body rounded"> 
+    <h1 class="text-center judul"> <img src="./logo.jpeg" style="" alt=""> APLIKASI ADMIN SLOT <img src="./logo.jpeg" style="" alt=""> </h1> 
+    <br>
+    <br> 
+    <div class="row"> 
+     <div class="col-sm-6"> 
+      <form class="form-horizontal" method="post"> 
+       <div class="form-group"> 
+        <label class="col-sm-4 control-label">PILIH SITUS</label> 
+        <div class="col-sm-8"> 
+         <select class="form-control" style="appearance: auto" name="website"> <option selected value="Harmonibet">Harmonibet</option> <option value="Domino777">Domino777</option> <option value="Cemewins">Cemewins</option> <option value="Bandarwins">Bandarwins</option> <option value="Surgadewa">Surgadewa</option> <option value="Agusbet">Agusbet</option> <option value="Mandalika4d">Mandalika4d</option> <option value="Slot2500">Slot2500</option> <option value="Merahbet">Merahbet</option> </select> 
+        </div> 
+       </div> 
+       <div class="form-group"> 
+        <label class="col-sm-4 control-label">User ID</label> 
+        <div class="col-sm-8"> 
+         <input type="text" class="form-control" style="appearance: auto" name="username" value="" minlength="4" required> 
+        </div> 
+       </div> 
+       <div class="form-group"> 
+        <label class="col-sm-4 control-label">SETTING ID/AKUN</label> 
+        <div class="col-sm-8"> 
+         <select class="form-control" style="appearance: auto" name="menu1"> <option selected>Dikunci</option> <option>Dibuka</option> </select> 
+        </div> 
+       </div> 
+       <div class="form-group"> 
+        <div class="col-sm-4"> 
+         <select class="form-control" style="appearance: auto" name="winrate"> <option value="91%" selected>WINRATE 91%</option> <option value="88%">WINRATE 88%</option> <option value="85%">WINRATE 85%</option> <option value="82%">WINRATE 82%</option> <option value="79%">WINRATE 79%</option> </select> 
+        </div> 
+        <div class="col-sm-8"> 
+         <select class="form-control" style="appearance: auto" name="wr_aktif"> <option selected>Tidak Aktif</option> <option>Aktif</option> </select> 
+        </div> 
+       </div> 
+       <div class="form-group"> 
+        <label class="col-sm-4 control-label">SISTEM SCATTER</label> 
+        <div class="col-sm-8"> 
+         <select class="form-control" style="appearance: auto" name="menu3"> <option selected>DC OFF</option> <option>DC ON</option> </select> 
+        </div> 
+       </div> 
+       <div class="form-group"> 
+        <label class="col-sm-4 control-label">SISTEM POLA</label> 
+        <div class="col-sm-8"> 
+         <select class="form-control" style="appearance: auto" name="menu4"> <option selected>Auto Spin ❎❎❎</option> <option>Spin Turbo ✅❎❎</option> <option>Spin Cepat ❎✅❎</option> <option>Auto Skip ❎❎✅</option> <option>Buy Free Spin -------</option> <option>Manual Spin ✅❎✅</option> </select> 
+        </div> 
+       </div> 
+       <div class="form-group"> 
+        <label class="col-sm-4 control-label">PENGATURAN MAXWIN</label> 
+        <div class="col-sm-8"> 
+         <select class="form-control" style="appearance: auto" name="menu5"> <option selected>Tidak Aktif</option> <option>Aktif</option> </select> 
+        </div> 
+       </div> 
+       <div class="form-group"> 
+        <div class="col-sm-offset-4 col-sm-8"> 
+         <button type="submit" class="btn btn-success">Aktifkan</button> 
+        </div> 
+       </div> 
+      </form> 
+     </div> 
+     <div class="col-sm-6 animate-bottom" id="loader" style="display: none"> 
+      <div class="alert bg-danger text-white"> 
+       <center id="this_time">
+        EXPIRED CHEAT TANGGAL : 28 November 2022
+       </center> 
+      </div> 
+      <div class="well well-sm"> 
+       <h1>
+        <center>
+         Segera Deposit Dalam Waktu :
+        </center></h1> 
+       <h1> 
+        <center>
+         <span id="countdown">00:00:00</span>
+        </center> </h1> 
+      </div> 
+      <div class="well well-sm"> 
+       <p style="text-align: center"> <span style="background-color: #ffffff; color: #ff0000"><strong>CHEAT SISTEM PENGATURAN SLOT AKTIF</strong> !!</span> </p> 
+       <p style="text-align: center"> <span style="color: #ff0000">&nbsp;<strong>WINRATE 91% DIJAMIN MENANG</strong></span> </p> 
+       <p style="text-align: center"> <strong><span style="color: #ff0000">MINIMAL SALDO</span></strong>&nbsp;<br><strong>RP</strong> <strong><span style="color: #ff0000">30.000</span></strong><br>Semakin Tinggi Saldo Deposit Maka <strong><span style="color: #ff0000">CHEAT SISTEM</span></strong> Akan Memberikan <strong><span style="color: #ff0000">Kemenangan PENUH</span></strong> </p> 
+       <p style="text-align: center"> <strong><span style="color: #ff0000">PENTING !!!</span> <span style="background-color: #ffffff; color: #333333">:</span></strong> <br>- Pastikan Ikutin Jumlah <span style="color: #000000"><strong>Saldo</strong></span> Yang Sudah Di <strong>Aktifkan</strong> <br>- Selalu Cek Winrate RTP situs <strong>agar Cheat MAKSIMAL</strong> <br>- Cocokan <strong>Pola di RTP</strong> sebelum bermain <br>- Jangan Bermain <strong>Hanya di 1 situs saya Ikuti Daftar Situs Yang Telah Berhasil di HACK</strong> <br>- <span style="color: #ff0000"><strong>Tidak Boleh Sering Menggunakan Aplikasi ini,, Bila Ketahuan Akun Dapat Di Setting Kalah Permanen</strong></span> </p> 
+       <p style="text-align: center"> <span style="color: #ff0000"><strong>WARNING !!</strong></span><br><span style="color: #ff0000"><strong>"APLIKASI ADMIN SLOT"</strong></span> <strong>TIDAK BOLEH DI</strong> <strong>BAGIKAN</strong> <strong>KEPADA SIAPAPUN</strong><br><strong>KARENA BERSIFAT SANGAT RAHASIA DAN MEMPENGARUHI <span style="color: #ff0000">MAXWINMU</span></strong> </p> 
+      </div> 
+      <div class="alert bg-danger text-white"> 
+       <center>
+        JANGAN TUTUP APLIKASI ADMIN SLOT SAAT BERMAIN AGAR CHEAT TETAP AKTIF
+       </center> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="row"> 
+     <div class="col-sm-12"> 
+      <center>
+       <h4>Khusus Jalur Orang Dalam</h4>
+      </center>
+      <br> 
+      <!-- <center><img src="image/logo.png" width="30%"></center> --> 
+     </div> 
+    </div> 
+   </div> 
+  </main> 
+  <script type="text/javascript">
+		function loading() {
+			document.getElementById("loader").style.display = "inline";
+		}
+
+		function showPage() {
+			//document.getElementById("loader").style.display = "none";
+			//document.getElementById("myDiv").style.display = "inline-block";
+		}
+		// Set the date we're counting down to
+		var x = "2022-11-27 19:58:47 UTC";
+		var x = x.replace(" UTC","Z");
+		var x = x.replace(" ","T");
+		var countDownDate = new Date(x)
+        // alert(countDownDate);
+		var date = countDownDate.getDate();
+		const months = ["Januari", "February", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "December"];
+		var month = months[countDownDate.getMonth()];
+		var year = countDownDate.getFullYear();
+		document.getElementById("this_time").innerText = document.getElementById("this_time").innerText + " " + date + " " + month + " " + year
+
+		// var thistime = countDownDate.toLocaleString();
+		// console.log("sampe kapan: " + countDownDate)
+		// Update the count down every 1 second
+		var x = setInterval(function () {
+			// Get today's date and time
+			// var now2 = new Date().toUTCString();
+			var now = new Date().getTime();
+			// console.log("waktu skerng: " + new Date());
+			// console.log("waktu skerng utc: " + now);
+			// Find the distance between now and the count down date
+			var distance = countDownDate - now;
+			// console.log(now);
+
+			// Time calculations for days, hours, minutes and seconds
+			var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+			var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+			var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+			var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+			// Display the result in the element with id="demo"
+			document.getElementById("countdown").innerHTML = "00:" + tambahNol(minutes) + ":" + tambahNol(seconds);
+			// if(seconds == 0){
+			// 	seconds = 59;
+			// 	minutes--;
+			// }else{
+			// 	seconds--;
+			// }
+			// If the count down is finished, write some text
+			if (distance < 0) {
+				clearInterval(x);
+				document.getElementById("countdown").innerHTML = "EXPIRED";
+			}
+		}, 1000);
+
+		function tambahNol(x) {
+			y = x > 9 ? x : "0" + x;
+			return y;
+		}
+
+	</script> 
+ </body>
+</html>
